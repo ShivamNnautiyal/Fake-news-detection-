@@ -159,7 +159,7 @@ print("News Prediction:", predict_News(example_text))
 import requests
 
 def fact_check(query):
-    api_key = "AIzaSyDvcAT_6AmNsw_Jc9wQTeb7MXBRBzOmTO8"
+    api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     url = f"https://factchecktools.googleapis.com/v1alpha1/claims:search?query={query}&key={api_key}"
     response = requests.get(url)
     results = response.json()
